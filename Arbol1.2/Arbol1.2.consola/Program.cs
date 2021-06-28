@@ -53,7 +53,7 @@ namespace Arbol1._2.consola
             Console.WriteLine(manejadorArbol.ImprimirArbolInfijo(Raiz));
             Console.WriteLine(manejadorArbol.ImprimirArbolPrefijo(Raiz));
             Console.WriteLine(manejadorArbol.ImprimirArbolPosfijo(Raiz));
-
+            
             Console.WriteLine(manejadorArbol.ImprimirArbol(Raiz, Notacion.Posfijo));
         }
     }
